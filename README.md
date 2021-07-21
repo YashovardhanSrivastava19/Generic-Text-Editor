@@ -1,6 +1,7 @@
 # Generic-Text-Editor
 A simple implementation of text editor in python (tkinter)  
 TextEditor.py contains implementation of a simple text editor in python using the tkinter module. Feel free to use it and correct me.
+Email(For any suggestions,improvements and questions):yashsrivastava.11235@gmail.com
 
 
 Credits: 
