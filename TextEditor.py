@@ -991,7 +991,7 @@ class Editor(Frame):
         """ [Bounded function for colon(:) for indentation] """
         line = self.txtarea.get("insert linestart", "insert lineend")
         current_indent = len(line) - len(line.lstrip()) 
-        new_indent = current_indent*MasterProperties.TabSize
+        new_indent = current_indent+MasterProperties.TabSize
         self.txtarea.insert(INSERT,"{}\n{}".format(event.char," "*new_indent))
         return "break"
 
